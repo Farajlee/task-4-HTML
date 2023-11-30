@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+    background: #eeedf2;
+}
+section {
+  width: 1220px;
+  height: 1040px;
+  margin-left: 40px;
+
+}
+.image {
+  width: 800px;
+  height: 1100px;
+}
+
+.text h1 {
+  font-size: 200px;
+}
+.text{
+    background-image: url(./images/Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+input {
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 72px;
+  border-top-right-radius: 204px;
+  border-bottom-right-radius: 257px;
+  border: none;
+  font-size: 24px;
+}
+form {
+  position: relative;
+}
+form::after {
+  content: "Sign up";
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  width: 175px;
+  height: 63px;
+  background-color: red;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: linear-gradient(90deg, #F48743 0.03%, #F35E41 100.14%);
+  border-radius: 23px 14px 14px 35px;
+}
+ul li a{
+    color: black;
+}
+header{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+#footer{
+    margin-left: 40px;
+}
